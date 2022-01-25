@@ -6,7 +6,7 @@
 /*   By: jeong-yena <jeong-yena@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/19 19:22:56 by jeong-yena        #+#    #+#             */
-/*   Updated: 2022/01/24 17:15:00 by jeong-yena       ###   ########.fr       */
+/*   Updated: 2022/01/25 18:18:12 by jeong-yena       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,6 @@
 void	exit_error(void);
 char	*check_access(char *cmd, char **envp);
 void	exec_cmd(char *cmd, char **envp);
-int		arg_err(char *str);
+int		arg_err(void);
 
 #endif
